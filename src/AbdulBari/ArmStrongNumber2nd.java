@@ -16,7 +16,7 @@ public class ArmStrongNumber2nd {
             originalNumber= originalNumber/10;
         }
         originalNumber = n;
-        System.out.println("the number odf digits are "+digits);
+        System.out.println("the number of digits are "+digits);
         int sum = 0;
         while(originalNumber>0){
             int remainder = originalNumber%10;
