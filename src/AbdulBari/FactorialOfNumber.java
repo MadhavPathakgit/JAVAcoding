@@ -6,7 +6,7 @@ public class FactorialOfNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number for which you want to find the factorial");
         int n = sc.nextInt();
-        int factorial = 1;
+        long factorial = 1;
         for(int i =1;i<=n;i++){
             factorial *= i;
 
