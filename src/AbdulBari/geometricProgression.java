@@ -12,7 +12,7 @@ public class geometricProgression {
         System.out.println("Enter the number from which you want to print the series:");
         int n = sc.nextInt();
         for(int i = 0;i<n;i++){
-            System.out.print(a+" ");
+            System.out.print(a+"  ");
             a = a*r;
 
         }
