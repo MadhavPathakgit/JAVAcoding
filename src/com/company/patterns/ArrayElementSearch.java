@@ -11,7 +11,7 @@ public class ArrayElementSearch {
         int x = sc.nextInt();
         for ( int i = 0 ; i < arr.length ; i++ ) {
             if ( arr[ i ] == x ) {
-                System.out.println( i );
+                System.out.println("Element Found at Index " +i );
                 System.exit(0);
             }
 
