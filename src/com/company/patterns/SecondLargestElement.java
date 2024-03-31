@@ -11,6 +11,10 @@ public class SecondLargestElement {
                 largest= arr[ i ];}
             else if(SecondLargest<arr[i]){
                 SecondLargest = arr[i];
+
+
+
+
             }
         }
         System.out.println(largest);
