@@ -13,7 +13,14 @@ public class RotatingAnArray {
 
         for ( int j : arr ) {
             System.out.print( j + " " );
-
         }
+        //RightRotation
+//        int temp2 = arr[ arr.length-1];
+//
+//        for(int i=arr.length-2;i>=0;i--) {
+//            arr[ i+1] = arr[ i ];
+//        }
+//        arr[0]= temp2;
     }
+
 }
