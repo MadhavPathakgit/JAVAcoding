@@ -4,7 +4,7 @@ public class MaxSubArraySum {
     // brute force approach
     public static void main( String[] args ) {
 
-        int [] arr = {-5,1,2,-1};
+        int [] arr = {-5,-1,-2,-1};
 //        SubArraySum2( arr );
         System.out.println(kadanes( arr ));
     }
@@ -33,12 +33,13 @@ public class MaxSubArraySum {
               max = cs;
           }
       }
+
       if(cs == 0) {
           return  max_ele;
       } else {
           return  max;
       }
-        //System.out.println(max);
+//        System.out.println(max);
     }
 
 

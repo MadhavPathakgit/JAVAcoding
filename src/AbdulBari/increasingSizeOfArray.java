@@ -13,5 +13,6 @@ public class increasingSizeOfArray {
         System.out.println(arr.length);
 
 
+
     }
 }
