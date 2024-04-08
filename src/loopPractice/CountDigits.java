@@ -13,5 +13,6 @@ public class CountDigits {
             n= n/10;
         }
         System.out.println("the number of digits are:"+ count);
-    }}
+    }
+}
 
