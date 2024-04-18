@@ -30,4 +30,17 @@ return max;
         arr[first] = arr[second];
         arr[second] = temp;
     }
+    public static void SelectionSort2(int arr[]){
+        for(int i = 0;i<arr.length-1;i++){
+            int minPOs = i;
+            for(int j = i+1;j< arr.length;j++){
+                if(arr[minPOs]<arr[ j ]){
+                    minPOs= j;
+                }
+            }
+            int temp = arr[ minPOs ];
+            arr[minPOs]= arr[i];
+            arr[i]= temp;
+        }
+    }
 }

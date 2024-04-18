@@ -9,7 +9,7 @@ public class IsPalindrome {
     }
     static boolean isPlaindrome(String str){
         str = str.toLowerCase();
-        str = str.toLowerCase();
+
         if(str == null || str.length()== 0){
             return true;
         }
