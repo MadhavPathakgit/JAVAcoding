@@ -1,4 +1,4 @@
-package com.company.HashMap;
+package com.company.Hashmap;
 import java.util.*;
 
 public class HashMapPut {
