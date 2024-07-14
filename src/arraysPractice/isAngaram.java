@@ -7,8 +7,8 @@ public class isAngaram {
         System.out.println(isAnagram( str1,str2 ));
     }
     public static boolean isAnagram(String str1 ,String str2){
-//        str1.toLowerCase();
-//        str2.toLowerCase();
+        str1.toLowerCase();
+        str2.toLowerCase();
         if(str1.length()!=str2.length()){
             return false;
         }
