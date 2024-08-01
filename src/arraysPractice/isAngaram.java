@@ -1,5 +1,6 @@
 package arraysPractice;
 
+
 public class isAngaram {
     public static void main( String[] args ) {
         String str1 = "caaaare";
