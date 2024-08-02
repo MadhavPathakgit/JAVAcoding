@@ -1,5 +1,7 @@
 package com.company.Recursionn;
 
+import java.util.HashSet;
+
 public class RemoveDuplicate {
 //    package com.company.Recursionn;
 
@@ -24,6 +26,10 @@ public class RemoveDuplicate {
             StringBuilder newStr = new StringBuilder();
             boolean[] map = new boolean[26];
             removeDuplicates(str, 0, newStr, map);
+        }
+        public static String removeUsingHashSet(String str){
+            HashSet<Character> set = new HashSet<>();
+            StringBuilder sb = new StringBuilder()
         }
     }
 
