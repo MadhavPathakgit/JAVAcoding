@@ -12,7 +12,7 @@ public static void removeDuplicates( String str , int index , StringBuilder newS
         return;
     }
     char currChar = str.charAt( index );
-    if ( map[ currChar - 'a' ] == true ) {
+    if ( map[ currChar - 'a' ]  ) {
         removeDuplicates( str , index + 1 , newStr , map );
     } else {
         map[ currChar - 'a' ] = true;
