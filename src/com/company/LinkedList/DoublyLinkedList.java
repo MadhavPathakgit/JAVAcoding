@@ -10,7 +10,8 @@ public class DoublyLinkedList {
         if(head!= null){
 
             head.prev = node;
-        }else {
+        }
+        else {
             // If the list was empty, tail should also point to the new node
             tail = node;
         }

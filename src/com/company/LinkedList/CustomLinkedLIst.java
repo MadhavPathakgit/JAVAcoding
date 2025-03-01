@@ -113,17 +113,16 @@ public class CustomLinkedLIst {
 
     }
     // display function for linkedList
-    public  void Display(){
+    public  void Display() {
         Node temp = head;
-        while(temp!= null){
-            System.out.print(temp.value+"--------> ");
+        while ( temp != null ) {
+            System.out.print( temp.value + "--------> " );
             temp = temp.next;
         }
-        System.out.println("End");
-
+        System.out.println( "End" );
 
     }
-  
+
 
     private class Node{
       private int value;
